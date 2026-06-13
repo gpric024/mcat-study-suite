@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bio/Biochem — MCAT Study Guide | Biological &amp; Biochemical Foundations of Living Systems</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<nav class="topbar"><div class="wrap">
+  <a class="home" href="../index.html">MCAT Suite</a>
+  <a href="../study/cars.html">CARS &#9733;</a>
+  <a href="../study/chemphys.html">Chem/Phys</a>
+  <a href="../study/biobiochem.html">Bio/Biochem</a>
+  <a href="../study/psychsoc.html">Psych/Soc</a>
+  <span class="spacer"></span>
+  <a href="../index.html#exams">Practice Exams</a>
+</div></nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <h1>Biological &amp; Biochemical Foundations of Living Systems</h1>
+  <p class="lede">Foundational Concepts 1&ndash;3 &mdash; 59 questions in 95 minutes, mixing passage sets with discrete items. Roughly 65% biology, 25% biochemistry, 10% general/organic chemistry. The exam rewards reasoning over rote recall: expect figures, gels, kinetic plots, and experimental data.</p>
+</header>
+
+<div class="panel">
+  <strong>How to use this guide.</strong>
+  <p>Each module teaches the highest-yield testable facts, gives a worked example or quick-reference table, cites the relevant AAMC content category, then drops you straight into a 6&ndash;10 question practice set with instant feedback and full rationales. Work top to bottom, or jump to a weak area from the table of contents.</p>
+  <p style="margin-bottom:0">
+    <span class="pill">59 questions</span>
+    <span class="pill">95 minutes</span>
+    <span class="pill">Scored 118&ndash;132</span>
+    <span class="pill">Concepts 1&ndash;3</span>
+    <span class="pill easy">~1.6 min / question</span>
+  </p>
+</div>
+
+<div class="toc">
+  <strong>Modules</strong>
+  <a href="#aminoacids">1. Amino Acids, Proteins &amp; Protein Structure</a>
+  <a href="#enzymes">2. Enzymes: Kinetics &amp; Regulation</a>
+  <a href="#metabolism">3. Metabolism &amp; Bioenergetics</a>
+  <a href="#molbio">4. Molecular Biology: Central Dogma &amp; Gene Regulation</a>
+  <a href="#genetics">5. Genetics, Inheritance &amp; Evolution</a>
+  <a href="#cell">6. Cell Biology, Membranes &amp; Signaling</a>
+  <a href="#micro">7. Microbiology: Prokaryotes &amp; Viruses</a>
+  <a href="#organsystems">8. Organ Systems &amp; Physiology</a>
+</div>
+
+<!-- ===================================================================== -->
+<h2 id="aminoacids">1. Amino Acids, Proteins &amp; Protein Structure</h2>
+
+<p>Proteins are polymers of 20 standard <strong>&alpha;-amino acids</strong>, each with an amino group, a carboxyl group, an H, and a variable side chain (R group) on the central &alpha;-carbon. Every standard amino acid except glycine (R = H) is chiral; nearly all are <strong>L-isomers</strong> (S configuration, with the exception of cysteine, which is R despite being L due to CIP priority of sulfur).</p>
+
+<h3>Side-chain classification (memorize these groupings)</h3>
+<table class="data">
+  <tr><th>Class</th><th>Members</th><th>Key test points</th></tr>
+  <tr><td>Nonpolar / hydrophobic</td><td>Gly, Ala, Val, Leu, Ile, Pro, Met, Phe, Trp</td><td>Bury in protein core; Pro kinks the backbone (secondary amine, no H-bond donor)</td></tr>
+  <tr><td>Polar uncharged</td><td>Ser, Thr, Cys, Asn, Gln, Tyr</td><td>Ser/Thr/Tyr &minus;OH are phosphorylation sites; Cys forms disulfides</td></tr>
+  <tr><td>Acidic (&minus; at pH 7)</td><td>Asp, Glu</td><td>Carboxyl side chains, low pK<sub>a</sub> (~3.7&ndash;4.3)</td></tr>
+  <tr><td>Basic (+ at pH 7)</td><td>Lys, Arg, His</td><td>His pK<sub>a</sub> ~6 &rarr; only one that buffers near physiological pH; key in enzyme active sites</td></tr>
+</table>
+
+<div class="callout">
+  <strong>Titration &amp; pI</strong>
+  The isoelectric point (pI) is the pH where net charge = 0. For an amino acid with no ionizable side chain, pI = average of the two pK<sub>a</sub> values (&alpha;-COOH ~2, &alpha;-NH<sub>3</sub><sup>+</sup> ~9 &rarr; pI ~5.5). For an acidic side chain, average the two <em>lowest</em> pK<sub>a</sub>s; for a basic side chain, average the two <em>highest</em>. At pH &lt; pI the molecule is net positive; at pH &gt; pI it is net negative (this drives migration in electrophoresis).
+</div>
+
+<h3>The four levels of structure</h3>
+<table class="data">
+  <tr><th>Level</th><th>Defined by</th><th>Stabilizing interactions</th></tr>
+  <tr><td>Primary</td><td>Amino acid sequence (peptide bonds)</td><td>Covalent peptide (amide) bonds</td></tr>
+  <tr><td>Secondary</td><td>&alpha;-helices, &beta;-sheets</td><td>Backbone H-bonds (C=O&middot;&middot;&middot;H&ndash;N)</td></tr>
+  <tr><td>Tertiary</td><td>3-D fold of one chain</td><td>Hydrophobic effect (dominant), H-bonds, ionic/salt bridges, disulfides</td></tr>
+  <tr><td>Quaternary</td><td>Assembly of multiple subunits</td><td>Same non-covalent forces between chains (e.g., hemoglobin = 2&alpha;2&beta;)</td></tr>
+</table>
+
+<div class="callout good">
+  <strong>Worked example</strong>
+  A protein retains its molecular weight on SDS-PAGE under reducing conditions but runs as a single band at twice that weight on a native gel. What holds the dimer together? &mdash; SDS denatures and coats with negative charge (separating non-covalent contacts), and the reducing agent (&beta;-mercaptoethanol/DTT) breaks disulfides. Since reduced SDS-PAGE shows monomers, the native dimer must be held by <em>non-covalent</em> quaternary interactions, not interchain disulfide bonds.
+</div>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 1A (Structure and function of proteins and their constituent amino acids); corroborated by Lehninger <em>Principles of Biochemistry</em> and Khan Academy MCAT: Amino acids and proteins.</p>
+
+<div id="quiz-aminoacids"></div>
+
+<!-- ===================================================================== -->
+<h2 id="enzymes">2. Enzymes: Kinetics &amp; Regulation</h2>
+
+<p>Enzymes are biological catalysts that <strong>lower activation energy</strong> (E<sub>a</sub>) without changing &Delta;G or the equilibrium position &mdash; they speed both forward and reverse reactions equally. They work by stabilizing the <strong>transition state</strong> (induced fit), not merely by binding substrate.</p>
+
+<h3>Michaelis&ndash;Menten kinetics</h3>
+<p>Rate <em>v</em> = V<sub>max</sub>[S] / (K<sub>m</sub> + [S]). K<sub>m</sub> = the [S] at half V<sub>max</sub> and approximates the inverse of binding affinity (low K<sub>m</sub> = high affinity). V<sub>max</sub> = k<sub>cat</sub>[E<sub>total</sub>] and depends on enzyme amount. The <strong>Lineweaver&ndash;Burk</strong> double-reciprocal plot (1/v vs 1/[S]) linearizes the curve: y-intercept = 1/V<sub>max</sub>, x-intercept = &minus;1/K<sub>m</sub>, slope = K<sub>m</sub>/V<sub>max</sub>.</p>
+
+<h3>Inhibition &mdash; the classic exam table</h3>
+<table class="data">
+  <tr><th>Type</th><th>Binds</th><th>K<sub>m</sub> (apparent)</th><th>V<sub>max</sub></th><th>Reversed by &uarr;[S]?</th></tr>
+  <tr><td>Competitive</td><td>Active site</td><td>&uarr; Increases</td><td>Unchanged</td><td>Yes</td></tr>
+  <tr><td>Noncompetitive</td><td>Allosteric (E and ES equally)</td><td>Unchanged</td><td>&darr; Decreases</td><td>No</td></tr>
+  <tr><td>Uncompetitive</td><td>ES complex only</td><td>&darr; Decreases</td><td>&darr; Decreases</td><td>No</td></tr>
+  <tr><td>Mixed</td><td>Both E and ES (unequally)</td><td>&uarr; or &darr;</td><td>&darr; Decreases</td><td>No</td></tr>
+</table>
+
+<div class="callout warn">
+  <strong>High-yield trap</strong>
+  On a Lineweaver&ndash;Burk plot, <em>competitive</em> inhibitors share the same y-intercept (V<sub>max</sub> unchanged) but increase the x-intercept magnitude shift (higher K<sub>m</sub>); <em>noncompetitive</em> inhibitors share the same x-intercept (K<sub>m</sub> unchanged) but raise the y-intercept (lower V<sub>max</sub>). Lines crossing on the y-axis = competitive; crossing on the x-axis = noncompetitive.
+</div>
+
+<h3>Regulation</h3>
+<ul>
+  <li><strong>Allosteric regulation:</strong> effectors bind sites other than the active site, shifting between tense (T, low-affinity) and relaxed (R, high-affinity) states &mdash; gives sigmoidal kinetics (cooperativity).</li>
+  <li><strong>Feedback inhibition:</strong> end product inhibits an upstream committed-step enzyme (e.g., ATP and citrate inhibit phosphofructokinase-1).</li>
+  <li><strong>Covalent modification:</strong> phosphorylation (kinases add, phosphatases remove) and proteolytic cleavage of zymogens (e.g., trypsinogen &rarr; trypsin).</li>
+  <li><strong>Cofactors/coenzymes:</strong> metal ions and organic molecules (many from vitamins: NAD<sup>+</sup>/niacin, FAD/riboflavin, CoA/pantothenate).</li>
+</ul>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 1A &amp; 1D (Principles of bioenergetics; enzyme structure/function and regulation); corroborated by Lehninger and Khan Academy MCAT: Enzyme kinetics.</p>
+
+<div id="quiz-enzymes"></div>
+
+<!-- ===================================================================== -->
+<h2 id="metabolism">3. Metabolism &amp; Bioenergetics</h2>
+
+<p>Glucose oxidation is the central metabolic map. Know the inputs, outputs, location, and regulation of each stage.</p>
+
+<table class="data">
+  <tr><th>Stage</th><th>Location</th><th>Net yield per glucose</th><th>Rate-limiting enzyme</th></tr>
+  <tr><td>Glycolysis</td><td>Cytoplasm</td><td>2 ATP, 2 NADH, 2 pyruvate</td><td>Phosphofructokinase-1 (PFK-1)</td></tr>
+  <tr><td>Pyruvate dehydrogenase</td><td>Mitochondrial matrix</td><td>2 NADH, 2 CO<sub>2</sub>, 2 acetyl-CoA</td><td>PDH (inhibited by acetyl-CoA, NADH)</td></tr>
+  <tr><td>Citric acid (TCA) cycle</td><td>Matrix</td><td>per turn: 3 NADH, 1 FADH<sub>2</sub>, 1 GTP, 2 CO<sub>2</sub> (&times;2 = per glucose: 6 NADH, 2 FADH<sub>2</sub>, 2 GTP)</td><td>Isocitrate dehydrogenase</td></tr>
+  <tr><td>Oxidative phosphorylation</td><td>Inner mitochondrial membrane</td><td>~26&ndash;28 ATP (from ETC + chemiosmosis)</td><td>Driven by proton gradient; O<sub>2</sub> = final e<sup>&minus;</sup> acceptor</td></tr>
+</table>
+
+<div class="callout">
+  <strong>Total ATP per glucose &asymp; 30&ndash;32</strong>
+  Modern (consensus) yields use ~2.5 ATP/NADH and ~1.5 ATP/FADH<sub>2</sub>. Older texts cite 36&ndash;38 using 3 and 2. The variability comes from the shuttle used to move cytosolic NADH into the mitochondrion: the <em>malate&ndash;aspartate</em> shuttle preserves NADH (~2.5 ATP), while the <em>glycerol-3-phosphate</em> shuttle delivers electrons to FAD (~1.5 ATP).
+</div>
+
+<h3>Other fuel pathways to know</h3>
+<ul>
+  <li><strong>Fermentation:</strong> regenerates NAD<sup>+</sup> anaerobically. Lactate (humans, via lactate dehydrogenase) or ethanol + CO<sub>2</sub> (yeast). Net glycolytic yield stays 2 ATP.</li>
+  <li><strong>Gluconeogenesis:</strong> not simply reverse glycolysis &mdash; bypasses the 3 irreversible steps (pyruvate carboxylase, PEPCK, FBPase-1, glucose-6-phosphatase). Occurs in liver/kidney.</li>
+  <li><strong>Glycogen:</strong> synthesis via glycogen synthase, breakdown via glycogen phosphorylase (both under hormonal/phosphorylation control: glucagon/epinephrine &rarr; breakdown; insulin &rarr; storage).</li>
+  <li><strong>&beta;-oxidation:</strong> fatty acids &rarr; acetyl-CoA; far more ATP per gram than carbs (more reduced). Requires carnitine shuttle for long chains.</li>
+  <li><strong>Pentose phosphate pathway:</strong> produces NADPH (reductive biosynthesis, glutathione) and ribose-5-phosphate (nucleotides); no ATP.</li>
+</ul>
+
+<div class="callout good">
+  <strong>Worked example</strong>
+  A poison blocks Complex IV (cytochrome c oxidase). What happens to the proton gradient and to NADH? &mdash; Electron flow halts at the end of the chain, so proton pumping stops and the gradient dissipates as ATP synthase keeps running briefly. With no terminal acceptor, NADH cannot be reoxidized, so NADH accumulates, the [NADH]/[NAD<sup>+</sup>] ratio rises, the TCA cycle stalls (NAD<sup>+</sup>-dependent dehydrogenases inhibited), and the cell shifts to anaerobic glycolysis (lactate &uarr;). Same logic applies to cyanide and CO.
+</div>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 1D (Principles of bioenergetics and fuel molecule metabolism); ATP yields per LibreTexts <em>General Biology</em> 7.13 and Lehninger.</p>
+
+<div id="quiz-metabolism"></div>
+
+<!-- ===================================================================== -->
+<h2 id="molbio">4. Molecular Biology: Central Dogma &amp; Gene Regulation</h2>
+
+<p>The central dogma: DNA &rarr; (transcription) &rarr; RNA &rarr; (translation) &rarr; protein, with reverse transcription (RNA &rarr; DNA) in retroviruses.</p>
+
+<h3>Replication, transcription, translation</h3>
+<ul>
+  <li><strong>Replication</strong> is semiconservative, bidirectional, 5'&rarr;3'. Leading strand continuous; lagging strand in Okazaki fragments. DNA polymerase needs a primer; has 3'&rarr;5' proofreading exonuclease activity.</li>
+  <li><strong>Transcription</strong> (RNA polymerase II in eukaryotes) makes pre-mRNA. Eukaryotic processing: 5' 7-methylguanosine cap, 3' poly-A tail, and <strong>splicing</strong> out introns (spliceosome) keeping exons. Alternative splicing &rarr; multiple proteins from one gene.</li>
+  <li><strong>Translation</strong> at the ribosome: codons read 5'&rarr;3'; the code is degenerate (multiple codons/amino acid), nearly universal, and non-overlapping. Start = AUG (Met); stops = UAA, UAG, UGA. tRNA wobble allows one tRNA to read multiple codons.</li>
+</ul>
+
+<h3>Gene regulation</h3>
+<table class="data">
+  <tr><th>System</th><th>Mechanism</th><th>Key fact</th></tr>
+  <tr><td>lac operon (prokaryote)</td><td>Inducible; repressor releases when lactose (allolactose) present; CAP&ndash;cAMP boosts when glucose low</td><td>Logic gate: ON only when lactose high AND glucose low</td></tr>
+  <tr><td>trp operon</td><td>Repressible; tryptophan = corepressor that activates the repressor</td><td>OFF when end product (Trp) abundant</td></tr>
+  <tr><td>Eukaryotic</td><td>Transcription factors, enhancers/silencers, chromatin remodeling</td><td>Acetylation (HATs) loosens chromatin &rarr; ON; methylation often silences</td></tr>
+  <tr><td>Post-transcriptional</td><td>miRNA/siRNA bind mRNA &rarr; degradation/blocked translation</td><td>RNA interference; basis of gene-knockdown tools</td></tr>
+</table>
+
+<div class="callout">
+  <strong>Biotech toolkit (high-yield)</strong>
+  <strong>PCR</strong> amplifies DNA (denature&ndash;anneal&ndash;extend, Taq polymerase). <strong>Gel electrophoresis</strong> separates by size (DNA migrates to + anode, small fragments travel farther). <strong>Southern</strong> = DNA, <strong>Northern</strong> = RNA, <strong>Western</strong> = protein. <strong>Restriction enzymes</strong> cut at palindromes; <strong>CRISPR-Cas9</strong> uses a guide RNA for targeted cuts. <strong>Sanger sequencing</strong> uses chain-terminating ddNTPs.
+</div>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 1B (Transmission of genetic information from gene to protein) &amp; 1C; corroborated by Molecular Biology of the Cell (Alberts) and Khan Academy MCAT.</p>
+
+<div id="quiz-molbio"></div>
+
+<!-- ===================================================================== -->
+<h2 id="genetics">5. Genetics, Inheritance &amp; Evolution</h2>
+
+<p>Mendelian genetics, probability, and population genetics show up as both discrete questions and pedigree/cross passages.</p>
+
+<ul>
+  <li><strong>Mendel's laws:</strong> segregation (alleles separate in gametes) and independent assortment (different genes assort independently if unlinked).</li>
+  <li><strong>Monohybrid cross</strong> (Aa &times; Aa): 3:1 phenotype, 1:2:1 genotype. <strong>Dihybrid</strong> (AaBb &times; AaBb): 9:3:3:1.</li>
+  <li><strong>Non-Mendelian patterns:</strong> incomplete dominance (blended), codominance (both expressed, e.g., AB blood), pleiotropy, polygenic traits, epistasis (one gene masks another), and X-linkage.</li>
+  <li><strong>Linkage &amp; recombination:</strong> genes close together are inherited together; recombination frequency (% recombinants) estimates map distance (1% = 1 centimorgan).</li>
+</ul>
+
+<h3>Hardy&ndash;Weinberg equilibrium</h3>
+<div class="callout">
+  <strong>p + q = 1 &nbsp;and&nbsp; p<sup>2</sup> + 2pq + q<sup>2</sup> = 1</strong>
+  p, q = allele frequencies; p<sup>2</sup> = homozygous dominant, 2pq = heterozygotes, q<sup>2</sup> = homozygous recessive. Holds only under 5 assumptions: no mutation, no migration, no selection, random mating, and large population. If a recessive disease affects 1 in 10,000 (q<sup>2</sup> = 0.0001), then q = 0.01, p &asymp; 0.99, and carrier frequency 2pq &asymp; 0.0198 (about 1 in 50).
+</div>
+
+<h3>Evolution</h3>
+<ul>
+  <li><strong>Natural selection</strong> acts on phenotypes; fitness = reproductive success. Types: directional, stabilizing, disruptive.</li>
+  <li><strong>Other forces:</strong> genetic drift (random; strong in small populations &mdash; bottleneck, founder effect), gene flow, mutation (ultimate source of variation), non-random mating.</li>
+  <li><strong>Speciation:</strong> reproductive isolation (allopatric = geographic; sympatric = same area). Species concept hinges on inability to produce viable, fertile offspring.</li>
+</ul>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 1C (Transmission of heritable information and processes that increase genetic diversity); corroborated by Campbell <em>Biology</em> and Khan Academy MCAT: Genetics.</p>
+
+<div id="quiz-genetics"></div>
+
+<!-- ===================================================================== -->
+<h2 id="cell">6. Cell Biology, Membranes &amp; Signaling</h2>
+
+<p>Eukaryotic cells compartmentalize function in membrane-bound organelles. The plasma membrane is a <strong>fluid mosaic</strong> phospholipid bilayer (hydrophilic heads out, hydrophobic tails in) studded with proteins; cholesterol buffers fluidity.</p>
+
+<h3>Organelle quick-reference</h3>
+<table class="data">
+  <tr><th>Organelle</th><th>Function</th></tr>
+  <tr><td>Rough ER</td><td>Ribosomes; synthesis of secreted/membrane proteins</td></tr>
+  <tr><td>Smooth ER</td><td>Lipid synthesis, detoxification, Ca<sup>2+</sup> storage</td></tr>
+  <tr><td>Golgi</td><td>Modifies, sorts, packages proteins (glycosylation)</td></tr>
+  <tr><td>Lysosome</td><td>Acidic hydrolases; intracellular digestion (autophagy)</td></tr>
+  <tr><td>Mitochondrion</td><td>ATP via oxidative phosphorylation; own DNA (maternal)</td></tr>
+  <tr><td>Peroxisome</td><td>&beta;-oxidation of very-long-chain fatty acids; breaks down H<sub>2</sub>O<sub>2</sub></td></tr>
+</table>
+
+<h3>Membrane transport</h3>
+<ul>
+  <li><strong>Passive</strong> (no ATP, down gradient): simple diffusion (small nonpolar/gases), facilitated diffusion (channels/carriers for ions, glucose), osmosis (water).</li>
+  <li><strong>Active</strong> (against gradient): primary uses ATP directly (Na<sup>+</sup>/K<sup>+</sup>-ATPase pumps 3 Na<sup>+</sup> out / 2 K<sup>+</sup> in); secondary/cotransport uses an existing ion gradient (symport/antiport).</li>
+  <li><strong>Bulk:</strong> endocytosis (phagocytosis, pinocytosis, receptor-mediated) and exocytosis.</li>
+</ul>
+
+<div class="callout">
+  <strong>Signal transduction</strong>
+  <strong>G-protein-coupled receptors (GPCRs):</strong> ligand binding &rarr; G&alpha; exchanges GDP for GTP &rarr; activates adenylyl cyclase (cAMP) or phospholipase C (IP<sub>3</sub>/DAG &rarr; Ca<sup>2+</sup> release). <strong>Receptor tyrosine kinases (RTKs):</strong> dimerize, autophosphorylate, trigger Ras&ndash;MAPK cascades (e.g., insulin, growth factors). Second messengers (cAMP, Ca<sup>2+</sup>, IP<sub>3</sub>) amplify the signal &mdash; one receptor &rarr; thousands of downstream molecules.
+</div>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 2A (Assemblies of molecules, cells, and groups of cells) &amp; 3A; corroborated by Alberts <em>Molecular Biology of the Cell</em> and Khan Academy MCAT.</p>
+
+<div id="quiz-cell"></div>
+
+<!-- ===================================================================== -->
+<h2 id="micro">7. Microbiology: Prokaryotes &amp; Viruses</h2>
+
+<p><strong>Prokaryotes</strong> (bacteria, archaea) lack a nucleus and membrane-bound organelles; they have a single circular chromosome, 70S ribosomes, and often plasmids. Reproduction is asexual by binary fission, but genetic variation arises through three horizontal mechanisms:</p>
+
+<table class="data">
+  <tr><th>Mechanism</th><th>How DNA transfers</th></tr>
+  <tr><td>Transformation</td><td>Uptake of naked DNA from the environment</td></tr>
+  <tr><td>Transduction</td><td>Transfer via bacteriophage (virus) vector</td></tr>
+  <tr><td>Conjugation</td><td>Direct cell-to-cell via pilus; requires F (fertility) plasmid</td></tr>
+</table>
+
+<h3>Viruses</h3>
+<ul>
+  <li>Acellular; obligate intracellular parasites &mdash; not alive by most definitions (no metabolism of their own). A virion = nucleic acid (DNA or RNA, never both) + protein capsid &plusmn; lipid envelope.</li>
+  <li><strong>Lytic cycle:</strong> replicate immediately and lyse the host. <strong>Lysogenic cycle:</strong> integrate as a prophage, replicate passively, later switch to lytic.</li>
+  <li><strong>Retroviruses</strong> (e.g., HIV): RNA genome &rarr; reverse transcriptase makes DNA &rarr; integrase inserts into host genome.</li>
+  <li><strong>Prions</strong> (misfolded proteins) and <strong>viroids</strong> (naked RNA) are subviral infectious agents.</li>
+</ul>
+
+<div class="callout good">
+  <strong>Worked example</strong>
+  Why do antibiotics targeting the bacterial 70S ribosome (e.g., tetracyclines, aminoglycosides) generally spare human cells? &mdash; Human cytosolic ribosomes are 80S (40S + 60S subunits), structurally distinct from the bacterial 70S (30S + 50S). The drug selectively binds the prokaryotic subunit. (Note: human mitochondrial ribosomes resemble 70S, which is why some such antibiotics carry mitochondrial side effects &mdash; a favorite passage twist.)
+</div>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 2B (Structure, growth, physiology, and genetics of prokaryotes and viruses) &amp; 2C; corroborated by Campbell <em>Biology</em> and Khan Academy MCAT: Microbiology.</p>
+
+<div id="quiz-micro"></div>
+
+<!-- ===================================================================== -->
+<h2 id="organsystems">8. Organ Systems &amp; Physiology</h2>
+
+<p>Concept 3 (Category 3B) tests the integrative function of organ systems, especially homeostasis and feedback. The nervous and endocrine systems coordinate; the others execute.</p>
+
+<table class="data">
+  <tr><th>System</th><th>Must-know facts</th></tr>
+  <tr><td>Nervous</td><td>Resting potential ~&minus;70 mV (Na<sup>+</sup>/K<sup>+</sup>-ATPase + K<sup>+</sup> leak). Action potential: depolarization (Na<sup>+</sup> in) &rarr; repolarization (K<sup>+</sup> out) &rarr; refractory period. Saltatory conduction at nodes of Ranvier. Synapse: Ca<sup>2+</sup> influx &rarr; neurotransmitter release.</td></tr>
+  <tr><td>Endocrine</td><td>Hormones: peptides (surface receptors, fast, second messengers) vs steroids (intracellular receptors, slow, alter transcription). Negative feedback (e.g., hypothalamus&ndash;pituitary&ndash;thyroid axis). Insulin lowers / glucagon raises blood glucose.</td></tr>
+  <tr><td>Circulatory</td><td>Heart: SA node pacemaker &rarr; AV node &rarr; bundle of His &rarr; Purkinje. Pulmonary loop (right side, to lungs) vs systemic (left side). O<sub>2</sub> dissociation curve: right shift (Bohr) with &uarr;CO<sub>2</sub>, &uarr;H<sup>+</sup>, &uarr;temp, &uarr;2,3-BPG.</td></tr>
+  <tr><td>Respiratory</td><td>Gas exchange at alveoli; diaphragm contracts &rarr; inhalation (negative-pressure). CO<sub>2</sub> mostly carried as bicarbonate; central chemoreceptors sense pH/CO<sub>2</sub>.</td></tr>
+  <tr><td>Renal</td><td>Nephron: filtration (glomerulus) &rarr; reabsorption (PCT) &rarr; secretion &rarr; concentration (loop of Henle countercurrent). ADH &uarr; water reabsorption; aldosterone &uarr; Na<sup>+</sup> reabsorption.</td></tr>
+  <tr><td>Digestive</td><td>Mechanical + chemical breakdown; zymogens activated in gut; most absorption in small intestine; liver processes nutrients (portal vein).</td></tr>
+  <tr><td>Immune</td><td>Innate (fast, nonspecific) vs adaptive (specific, memory). B cells &rarr; antibodies (humoral); T cells: helper (CD4) coordinate, cytotoxic (CD8) kill. Clonal selection.</td></tr>
+  <tr><td>Musculoskeletal</td><td>Sliding filament: actin + myosin, Ca<sup>2+</sup> binds troponin &rarr; tropomyosin shifts &rarr; cross-bridge cycling (ATP). Sarcomere shortens; A band constant, I band &amp; H zone shrink.</td></tr>
+  <tr><td>Reproductive</td><td>Spermatogenesis (continuous) vs oogenesis (arrested). Menstrual cycle: FSH/LH &rarr; estrogen/progesterone; LH surge triggers ovulation.</td></tr>
+</table>
+
+<div class="callout good">
+  <strong>Worked example</strong>
+  During heavy exercise, why does hemoglobin release more O<sub>2</sub> to muscle? &mdash; Active muscle produces CO<sub>2</sub>, H<sup>+</sup> (lactic acid), and heat, and raises 2,3-BPG. All of these <em>right-shift</em> the oxygen&ndash;hemoglobin dissociation curve (the Bohr effect), lowering Hb's O<sub>2</sub> affinity so it unloads O<sub>2</sub> precisely where the tissue demand is highest.
+</div>
+
+<p class="source">AAMC, Biological &amp; Biochemical Foundations &mdash; Content Category 3A (Structure/function of the nervous and endocrine systems) &amp; 3B (Structure and integrative functions of the main organ systems); corroborated by Guyton &amp; Hall <em>Physiology</em> and Khan Academy MCAT.</p>
+
+<div id="quiz-organsystems"></div>
+
+<footer class="foot">
+  MCAT Study Suite &middot; Bio/Biochem &mdash; Biological &amp; Biochemical Foundations of Living Systems. Content facts cited to AAMC &ldquo;What&rsquo;s on the MCAT Exam?&rdquo; content categories. School cutoffs and exam policies vary by year &mdash; confirm with official AAMC and admissions pages.
+</footer>
+
+</div><!-- /.wrap -->
+
+<script src="../assets/quiz.js"></script>
+<script>
+/* ---------------- Module 1: Amino Acids & Proteins ---------------- */
+MCAT.renderQuiz('#quiz-aminoacids', { questions: [
+  { id:'bb-aa-1', section:'biobiochem',
+    stem:'A peptide is placed in a buffer at pH 1. Which statement best describes the net charge contributions of its terminal groups?',
+    options:['Both the N-terminal amino group and C-terminal carboxyl group are deprotonated','The N-terminus is protonated (+) and the C-terminus is protonated (neutral &minus;COOH)','Both termini carry a negative charge','The C-terminus is deprotonated (&minus;) and the N-terminus is neutral'],
+    answer:1,
+    rationales:['At pH 1 (well below both pKas) groups are protonated, not deprotonated.','Correct: at very low pH, &alpha;-NH3+ stays protonated (+1) and &alpha;-COOH stays in its protonated, neutral &minus;COOH form, giving a net positive peptide.','Negative charge requires deprotonation, which does not occur at pH 1.','At pH 1 the carboxyl is below its pKa (~2&ndash;3.5), so it is protonated and neutral, not negative.'],
+    explanation:'At a pH below a group’s pKa, the group is protonated. At pH 1, both termini are protonated: the amino group is +1 and the carboxyl is neutral, so the molecule is net positive and migrates toward the cathode.',
+    source:'AAMC Content Category 1A; Lehninger Principles of Biochemistry', topic:'Acid–base / pI', difficulty:'medium' },
+  { id:'bb-aa-2', section:'biobiochem',
+    stem:'Which amino acid is most likely to be found stabilizing a charged transition state in an enzyme active site at physiological pH because its side chain can act as both an acid and a base near pH 7?',
+    options:['Aspartate','Lysine','Histidine','Leucine'],
+    answer:2,
+    rationales:['Asp (pKa ~3.7) is essentially fully deprotonated at pH 7 and cannot readily toggle.','Lys (pKa ~10.5) is fully protonated at pH 7 and a poor proton acceptor there.','Correct: His side chain pKa ~6 means it exists in both protonated and deprotonated forms near pH 7, ideal for acid–base catalysis.','Leu is nonpolar and not ionizable.'],
+    explanation:'Histidine’s imidazole side chain has a pKa near 6, the only standard side chain that buffers near physiological pH, making it the classic acid–base catalytic residue.',
+    source:'AAMC Content Category 1A; Khan Academy MCAT: Amino acids', topic:'Side chains', difficulty:'medium' },
+  { id:'bb-aa-3', section:'biobiochem',
+    stem:'A globular protein is treated with a reducing agent (DTT) but no detergent. The protein loses activity and unfolds. Which interaction was most likely critical to its tertiary structure?',
+    options:['Disulfide bonds between cysteine residues','Peptide bonds in the backbone','Hydrophobic interactions among nonpolar cores','Hydrogen bonds in an &alpha;-helix'],
+    answer:0,
+    rationales:['Correct: DTT specifically reduces disulfide (S&ndash;S) bonds; if reduction alone unfolds the protein, disulfides were load-bearing.','Peptide bonds are covalent amides unaffected by reducing agents; the chain stays intact.','Hydrophobic interactions are disrupted by detergents/heat, not by a reducing agent.','Backbone H-bonds are not specifically targeted by DTT.'],
+    explanation:'DTT and β-mercaptoethanol reduce disulfide bonds. Since reduction alone unfolds the protein, interchain/intrachain disulfides were essential to the fold.',
+    source:'AAMC Content Category 1A; Lehninger', topic:'Protein structure', difficulty:'easy' },
+  { id:'bb-aa-4', section:'biobiochem',
+    stem:'On native gel electrophoresis at pH 8.6, a protein with pI = 9.5 will:',
+    options:['Migrate toward the anode (+) because it is net negative','Migrate toward the cathode (&minus;) because it is net positive','Not migrate because it is at its isoelectric point','Migrate toward the anode because pH < pI'],
+    answer:1,
+    rationales:['It is not net negative; pH (8.6) is below the pI, so the protein is net positive.','Correct: when pH < pI the protein carries a net positive charge and migrates toward the negative electrode (cathode).','The protein is at pI only when pH = 9.5; here pH ≠ pI.','pH < pI is true, but a net positive protein moves toward the cathode, not the anode.'],
+    explanation:'When the buffer pH is below a protein’s pI, the protein is net positively charged and migrates toward the cathode (negative electrode).',
+    source:'AAMC Content Category 1A; Khan Academy MCAT: Protein techniques', topic:'Electrophoresis / pI', difficulty:'hard' },
+  { id:'bb-aa-5', section:'biobiochem',
+    stem:'Which secondary-structure element is most disrupted by a proline substitution placed in its middle?',
+    options:['&beta;-turn','&alpha;-helix','Random coil','Disulfide loop'],
+    answer:1,
+    rationales:['Proline is actually common at turns and is well tolerated there.','Correct: proline’s ring locks the backbone and its nitrogen lacks an amide H to donate, breaking the regular H-bond pattern of an α-helix (a “helix breaker”).','A random coil has no defined structure to disrupt.','Disulfides involve cysteine, not proline.'],
+    explanation:'Proline is a helix breaker: its cyclic side chain rigidifies the backbone and its secondary-amine nitrogen cannot donate a backbone hydrogen bond, destabilizing an α-helix when placed internally.',
+    source:'AAMC Content Category 1A; Lehninger', topic:'Secondary structure', difficulty:'medium' },
+  { id:'bb-aa-6', section:'biobiochem',
+    stem:'A nonpolar amino acid side chain contributes to protein folding primarily by:',
+    options:['Forming salt bridges with charged residues','Being driven to the protein interior by the hydrophobic effect','Donating hydrogen bonds to water','Forming covalent crosslinks'],
+    answer:1,
+    rationales:['Salt bridges form between oppositely charged (ionic) side chains, not nonpolar ones.','Correct: nonpolar side chains cluster in the core to minimize their disruption of water’s hydrogen-bond network — the hydrophobic effect, the dominant driver of tertiary folding.','Nonpolar groups do not H-bond with water; that is what makes them hydrophobic.','Covalent crosslinks (disulfides) involve cysteine, not generic nonpolar residues.'],
+    explanation:'The hydrophobic effect — burial of nonpolar side chains away from water to maximize solvent entropy — is the primary thermodynamic driver of protein tertiary structure.',
+    source:'AAMC Content Category 1A; Khan Academy MCAT', topic:'Folding forces', difficulty:'easy' }
+]});
+
+/* ---------------- Module 2: Enzymes ---------------- */
+MCAT.renderQuiz('#quiz-enzymes', { questions: [
+  { id:'bb-enz-1', section:'biobiochem',
+    stem:'An inhibitor binds only the enzyme&ndash;substrate complex. Compared with the uninhibited reaction, the apparent K<sub>m</sub> and V<sub>max</sub> will respectively:',
+    options:['Both increase','Both decrease','K<sub>m</sub> increases, V<sub>max</sub> unchanged','K<sub>m</sub> unchanged, V<sub>max</sub> decreases'],
+    answer:1,
+    rationales:['K<sub>m</sub> does not increase in uncompetitive inhibition.','Correct: an uncompetitive inhibitor binds only ES, which by Le Châtelier pulls binding equilibrium toward ES (lowering apparent K<sub>m</sub>) while capping turnover (lowering V<sub>max</sub>).','That pattern (Km up, Vmax same) is competitive inhibition.','That pattern (Km same, Vmax down) is pure noncompetitive inhibition.'],
+    explanation:'Binding exclusively to ES is uncompetitive inhibition: both apparent K<sub>m</sub> and V<sub>max</sub> decrease (their ratio, and thus the Lineweaver–Burk slope, stays the same — parallel lines).',
+    source:'AAMC Content Category 1A/1D; Lehninger', topic:'Enzyme inhibition', difficulty:'hard' },
+  { id:'bb-enz-2', section:'biobiochem',
+    stem:'Adding a competitive inhibitor and then greatly increasing substrate concentration will:',
+    options:['Restore the reaction toward the original V<sub>max</sub>','Permanently lower V<sub>max</sub>','Increase the affinity (lower K<sub>m</sub>)','Have no effect on rate'],
+    answer:0,
+    rationales:['Correct: excess substrate outcompetes the inhibitor for the active site, so V<sub>max</sub> is still reachable.','Competitive inhibitors do not change V<sub>max</sub>.','Competitive inhibition raises apparent K<sub>m</sub> (lowers apparent affinity), not lowers it.','Substrate clearly affects rate; the statement is false.'],
+    explanation:'Competitive inhibitors bind the active site reversibly; high [S] outcompetes them, so V<sub>max</sub> is unchanged and merely requires more substrate to reach (apparent K<sub>m</sub> increases).',
+    source:'AAMC Content Category 1A/1D; Khan Academy MCAT: Enzyme kinetics', topic:'Competitive inhibition', difficulty:'easy' },
+  { id:'bb-enz-3', section:'biobiochem',
+    stem:'Which statement about an enzyme&rsquo;s effect on a reaction is correct?',
+    options:['It makes a nonspontaneous reaction spontaneous','It lowers the activation energy and speeds forward and reverse rates equally','It shifts the equilibrium toward products','It increases the &Delta;G of the reaction'],
+    answer:1,
+    rationales:['Enzymes cannot change ΔG; a reaction with positive ΔG stays nonspontaneous.','Correct: enzymes lower E<sub>a</sub>, accelerating both directions equally, leaving equilibrium unchanged.','Catalysts speed approach to equilibrium but never shift its position.','Enzymes do not change ΔG of the overall reaction.'],
+    explanation:'A catalyst lowers activation energy and speeds both the forward and reverse reaction by the same factor; thermodynamics (ΔG, K<sub>eq</sub>) are untouched.',
+    source:'AAMC Content Category 1A; Khan Academy MCAT', topic:'Catalysis', difficulty:'easy' },
+  { id:'bb-enz-4', section:'biobiochem',
+    stem:'A metabolic pathway&rsquo;s final product binds and inhibits the enzyme catalyzing the first committed step. This is an example of:',
+    options:['Competitive inhibition at the substrate site','Feedback (end-product) inhibition, often allosteric','Zymogen activation','Substrate-level phosphorylation'],
+    answer:1,
+    rationales:['The product is structurally unlike the first substrate and typically binds an allosteric site, not the active site.','Correct: end-product feedback inhibition curbs flux when the product is abundant, usually via an allosteric site on an early committed-step enzyme.','Zymogen activation is irreversible proteolytic activation, the opposite scenario.','Substrate-level phosphorylation is an ATP-forming step, unrelated.'],
+    explanation:'Feedback inhibition: the pathway’s end product allosterically inhibits an early committed enzyme, efficiently throttling the whole pathway (e.g., ATP inhibiting PFK-1).',
+    source:'AAMC Content Category 1D; Lehninger', topic:'Enzyme regulation', difficulty:'medium' },
+  { id:'bb-enz-5', section:'biobiochem',
+    stem:'An enzyme shows a sigmoidal (S-shaped) velocity-vs-[S] curve rather than hyperbolic. This most strongly suggests:',
+    options:['The enzyme follows simple Michaelis&ndash;Menten kinetics','The enzyme is irreversibly inhibited','The enzyme has multiple subunits showing cooperative binding','The substrate concentration was held constant'],
+    answer:2,
+    rationales:['Simple Michaelis–Menten kinetics give a hyperbolic, not sigmoidal, curve.','Irreversible inhibition lowers V<sub>max</sub> but does not by itself create sigmoidicity.','Correct: sigmoidal kinetics indicate positive cooperativity among subunits (allosteric enzymes such as hemoglobin-like binding).','Velocity curves require varying [S]; constant [S] would not produce a curve.'],
+    explanation:'A sigmoidal v–[S] curve is the signature of cooperative, multi-subunit (allosteric) enzymes — substrate binding to one site raises affinity at others.',
+    source:'AAMC Content Category 1A; Khan Academy MCAT', topic:'Cooperativity', difficulty:'medium' },
+  { id:'bb-enz-6', section:'biobiochem',
+    stem:'On a Lineweaver&ndash;Burk plot, two lines (with and without inhibitor) intersect exactly on the y-axis. The inhibitor is:',
+    options:['Competitive','Noncompetitive','Uncompetitive','A cofactor'],
+    answer:0,
+    rationales:['Correct: a shared y-intercept means V<sub>max</sub> is unchanged (same 1/V<sub>max</sub>), the hallmark of competitive inhibition; the x-intercept shifts (higher K<sub>m</sub>).','Noncompetitive inhibitors share the x-intercept (same K<sub>m</sub>) and differ at the y-intercept.','Uncompetitive inhibitors give parallel lines (no intersection).','A cofactor is not an inhibitor.'],
+    explanation:'Same y-intercept (1/V<sub>max</sub>) = unchanged V<sub>max</sub> = competitive inhibition. Same x-intercept (−1/K<sub>m</sub>) would instead indicate noncompetitive.',
+    source:'AAMC Content Category 1A/1D; Lehninger', topic:'Lineweaver–Burk', difficulty:'hard' }
+]});
+
+/* ---------------- Module 3: Metabolism ---------------- */
+MCAT.renderQuiz('#quiz-metabolism', { questions: [
+  { id:'bb-met-1', section:'biobiochem',
+    stem:'What is the NET ATP yield of glycolysis (glucose &rarr; 2 pyruvate), and where does it occur?',
+    options:['2 ATP, cytoplasm','4 ATP, mitochondrial matrix','2 ATP, mitochondrial matrix','36 ATP, cytoplasm'],
+    answer:0,
+    rationales:['Correct: glycolysis consumes 2 ATP and produces 4 (substrate-level), for a net of 2 ATP, entirely in the cytoplasm.','4 is the gross output, not net, and glycolysis is cytoplasmic, not in the matrix.','The net is 2 but the location is cytoplasm, not matrix.','36 (or 30–32) is the full aerobic yield per glucose, not glycolysis alone.'],
+    explanation:'Glycolysis nets 2 ATP and 2 NADH per glucose and occurs in the cytoplasm; no oxygen and no mitochondria are required for glycolysis itself.',
+    source:'AAMC Content Category 1D; LibreTexts General Biology 7.13', topic:'Glycolysis', difficulty:'easy' },
+  { id:'bb-met-2', section:'biobiochem',
+    stem:'Cyanide blocks Complex IV of the electron transport chain. The most immediate consequence is:',
+    options:['Increased ATP synthesis from the proton gradient','Accumulation of NADH and collapse of the proton-motive force','Increased oxygen consumption','Activation of the citric acid cycle'],
+    answer:1,
+    rationales:['Blocking the chain stops proton pumping, so the gradient dissipates and ATP synthesis falls.','Correct: with no terminal electron transfer to O2, NADH cannot be reoxidized and builds up; proton pumping ceases and the PMF collapses.','Oxygen consumption falls because O2 can no longer accept electrons.','The TCA cycle is inhibited as NADH accumulates and NAD+ is depleted.'],
+    explanation:'Inhibiting Complex IV (cyanide, CO) halts electron flow to oxygen: NADH accumulates, NAD+ is depleted (stalling the TCA cycle), proton pumping stops, and cells rely on anaerobic glycolysis.',
+    source:'AAMC Content Category 1D; NCBI Bookshelf (The Cell)', topic:'Oxidative phosphorylation', difficulty:'medium' },
+  { id:'bb-met-3', section:'biobiochem',
+    stem:'Under anaerobic conditions in human muscle, the conversion of pyruvate to lactate primarily serves to:',
+    options:['Generate large amounts of ATP directly','Regenerate NAD<sup>+</sup> so glycolysis can continue','Produce acetyl-CoA for the TCA cycle','Synthesize glucose'],
+    answer:1,
+    rationales:['Lactate fermentation produces no ATP itself; ATP still comes from glycolysis (net 2).','Correct: lactate dehydrogenase oxidizes NADH back to NAD+, replenishing the NAD+ that glycolysis needs to keep running.','Acetyl-CoA formation (PDH) is aerobic and does not occur here.','Glucose synthesis is gluconeogenesis, a separate anabolic pathway.'],
+    explanation:'Fermentation’s purpose is to regenerate NAD+ for the glyceraldehyde-3-phosphate dehydrogenase step, allowing glycolysis (and its 2 net ATP) to continue without oxygen.',
+    source:'AAMC Content Category 1D; NCBI StatPearls: Anaerobic Glycolysis', topic:'Fermentation', difficulty:'easy' },
+  { id:'bb-met-4', section:'biobiochem',
+    stem:'Which statement about gluconeogenesis is correct?',
+    options:['It is simply glycolysis run in reverse using the same enzymes','It bypasses glycolysis&rsquo;s three irreversible steps with distinct enzymes','It occurs mainly in skeletal muscle','It produces net ATP'],
+    answer:1,
+    rationales:['The three irreversible glycolytic steps cannot simply reverse; dedicated enzymes are required.','Correct: gluconeogenesis uses pyruvate carboxylase, PEPCK, fructose-1,6-bisphosphatase, and glucose-6-phosphatase to bypass the irreversible glycolytic steps.','It occurs mainly in the liver (and kidney), not skeletal muscle, which lacks glucose-6-phosphatase.','It consumes ATP/GTP; it is energetically costly, not ATP-producing.'],
+    explanation:'Gluconeogenesis is not the literal reverse of glycolysis; it uses four unique enzymes to circumvent the three thermodynamically irreversible glycolytic reactions and is energy-consuming.',
+    source:'AAMC Content Category 1D; Lehninger', topic:'Gluconeogenesis', difficulty:'medium' },
+  { id:'bb-met-5', section:'biobiochem',
+    stem:'A cell is forced to use the glycerol-3-phosphate shuttle instead of the malate&ndash;aspartate shuttle to move cytosolic NADH electrons into the mitochondrion. The likely effect on ATP yield per glucose is:',
+    options:['No change in ATP yield','Slightly lower yield because electrons enter at FAD (~1.5 ATP each)','Higher yield because the shuttle adds extra ATP','Glycolysis stops entirely'],
+    answer:1,
+    rationales:['The shuttles are not equivalent; yields differ.','Correct: the glycerol-3-phosphate shuttle delivers electrons to FAD, yielding ~1.5 ATP per cytosolic NADH rather than ~2.5, lowering total yield (toward ~30 vs 32).','It does not add ATP; it loses some compared with malate–aspartate.','The shuttle moves electrons; it does not halt glycolysis.'],
+    explanation:'Cytosolic NADH cannot cross the inner membrane directly. The glycerol-3-phosphate shuttle feeds electrons to FADH2-level carriers (~1.5 ATP), so it yields less ATP than the malate–aspartate shuttle (~2.5 ATP).',
+    source:'AAMC Content Category 1D; LibreTexts General Biology 7.13', topic:'Shuttles / ATP yield', difficulty:'hard' },
+  { id:'bb-met-6', section:'biobiochem',
+    stem:'The pentose phosphate pathway is most important for providing:',
+    options:['ATP for muscle contraction','NADPH and ribose-5-phosphate for biosynthesis','Lactate during anaerobic exercise','FADH<sub>2</sub> for the electron transport chain'],
+    answer:1,
+    rationales:['The PPP produces no ATP.','Correct: the PPP generates NADPH (for reductive biosynthesis and antioxidant defense) and ribose-5-phosphate (for nucleotide synthesis).','Lactate comes from anaerobic glycolysis, not the PPP.','The PPP does not feed FADH2 into the ETC.'],
+    explanation:'The pentose phosphate (hexose monophosphate) pathway supplies NADPH for biosynthesis/glutathione reduction and ribose-5-phosphate for nucleotides; it makes no ATP.',
+    source:'AAMC Content Category 1D; Lehninger', topic:'Pentose phosphate pathway', difficulty:'medium' },
+  { id:'bb-met-7', section:'biobiochem',
+    stem:'Per turn of the citric acid (TCA) cycle, the high-energy electron carriers and nucleotide produced are:',
+    options:['3 NADH, 1 FADH<sub>2</sub>, 1 GTP','1 NADH, 3 FADH<sub>2</sub>, 1 ATP','4 NADH, 2 FADH<sub>2</sub>, 2 GTP','2 NADH, 2 FADH<sub>2</sub>, 0 GTP'],
+    answer:0,
+    rationales:['Correct: each turn yields 3 NADH, 1 FADH2, and 1 GTP (plus 2 CO2). Per glucose (two turns) that is 6 NADH, 2 FADH2, 2 GTP.','The NADH/FADH2 numbers are reversed.','Those are the per-glucose (two-turn) totals, not per turn.','Each turn does produce a GTP via succinyl-CoA synthetase, so 0 GTP is wrong.'],
+    explanation:'One TCA turn: 3 NADH + 1 FADH2 + 1 GTP + 2 CO2. Glucose gives two acetyl-CoA, hence two turns and double those values.',
+    source:'AAMC Content Category 1D; Lehninger', topic:'TCA cycle', difficulty:'medium' }
+]});
+
+/* ---------------- Module 4: Molecular Biology ---------------- */
+MCAT.renderQuiz('#quiz-molbio', { questions: [
+  { id:'bb-mb-1', section:'biobiochem',
+    stem:'During DNA replication, the lagging strand is synthesized:',
+    options:['Continuously in the 3&prime;&rarr;5&prime; direction','Discontinuously as Okazaki fragments, each made 5&prime;&rarr;3&prime;','Continuously toward the replication fork','By RNA polymerase without a primer'],
+    answer:1,
+    rationales:['DNA polymerase synthesizes only 5′→3′, never 3′→5′.','Correct: because polymerase only extends 5′→3′, the lagging strand is built away from the fork in short Okazaki fragments later joined by ligase.','The leading strand follows the fork continuously; the lagging strand does not.','DNA polymerase requires an RNA primer (made by primase).'],
+    explanation:'DNA polymerase only adds nucleotides 5′→3′. The lagging strand template runs the “wrong” way, so it is copied discontinuously as Okazaki fragments, each primed and later ligated.',
+    source:'AAMC Content Category 1B; Alberts Molecular Biology of the Cell', topic:'Replication', difficulty:'medium' },
+  { id:'bb-mb-2', section:'biobiochem',
+    stem:'A single point mutation changes a codon from UUA (Leu) to UUG (Leu). This is best described as a:',
+    options:['Nonsense mutation','Missense mutation','Silent (synonymous) mutation','Frameshift mutation'],
+    answer:2,
+    rationales:['A nonsense mutation creates a premature stop codon; here the codon still codes for an amino acid.','A missense mutation changes the amino acid; here it stays Leu.','Correct: the codon changed but still encodes leucine — a silent mutation, possible due to the degeneracy of the genetic code.','A frameshift results from insertions/deletions not divisible by three, not from a single substitution.'],
+    explanation:'Because the genetic code is degenerate, a base change that still specifies the same amino acid (Leu→Leu) is a silent/synonymous mutation.',
+    source:'AAMC Content Category 1B; Khan Academy MCAT: Mutations', topic:'Mutations / genetic code', difficulty:'easy' },
+  { id:'bb-mb-3', section:'biobiochem',
+    stem:'In the lac operon, transcription of the structural genes is maximal when:',
+    options:['Glucose is high and lactose is high','Glucose is low and lactose is high','Glucose is high and lactose is low','Glucose is low and lactose is low'],
+    answer:1,
+    rationales:['High glucose keeps cAMP/CAP low, so transcription is weak even with lactose.','Correct: low glucose raises cAMP → CAP binds and boosts transcription, while lactose (allolactose) inactivates the repressor — both conditions needed for maximal expression.','Without lactose the repressor stays bound and blocks transcription.','Without lactose the operon is repressed regardless of glucose.'],
+    explanation:'The lac operon is maximally ON only when lactose is present (repressor released) AND glucose is low (cAMP high, CAP enhances RNA polymerase binding) — a classic AND-gate.',
+    source:'AAMC Content Category 1B; Alberts', topic:'Gene regulation / operons', difficulty:'hard' },
+  { id:'bb-mb-4', section:'biobiochem',
+    stem:'Which technique would you use to detect a specific PROTEIN in a cell lysate?',
+    options:['Southern blot','Northern blot','Western blot','PCR'],
+    answer:2,
+    rationales:['Southern blot detects DNA.','Northern blot detects RNA.','Correct: Western blot uses antibodies to detect a specific protein after SDS-PAGE separation and transfer to a membrane.','PCR amplifies DNA, not proteins.'],
+    explanation:'Mnemonic: Southern = DNA, Northern = RNA, Western = protein. Antibody-based Western blotting identifies a target protein by size and presence.',
+    source:'AAMC Content Category 1B; Khan Academy MCAT: Biotechnology', topic:'Biotechnology', difficulty:'easy' },
+  { id:'bb-mb-5', section:'biobiochem',
+    stem:'Eukaryotic pre-mRNA processing includes all of the following EXCEPT:',
+    options:['Addition of a 5&prime; 7-methylguanosine cap','Addition of a 3&prime; poly-A tail','Removal of exons by the spliceosome','Splicing out of introns'],
+    answer:2,
+    rationales:['Capping is a genuine processing step.','Polyadenylation is a genuine processing step.','Correct: the spliceosome removes introns and JOINS exons — exons are retained, not removed; this is the exception.','Intron removal is exactly what splicing does.'],
+    explanation:'mRNA processing adds a 5′ cap and 3′ poly-A tail and splices out introns while keeping (joining) exons. “Removal of exons” is false.',
+    source:'AAMC Content Category 1B; Alberts', topic:'RNA processing', difficulty:'medium' },
+  { id:'bb-mb-6', section:'biobiochem',
+    stem:'The genetic code is described as &ldquo;degenerate.&rdquo; This means:',
+    options:['Each codon can specify several different amino acids','Most amino acids are specified by more than one codon','Codons overlap one another','The code differs greatly across organisms'],
+    answer:1,
+    rationales:['A given codon specifies only one amino acid; the reverse is what causes ambiguity, which does not happen.','Correct: degeneracy means multiple codons can encode the same amino acid (e.g., six codons for leucine), often differing in the third “wobble” position.','The code is non-overlapping; each nucleotide is read once.','The code is nearly universal, not greatly variable.'],
+    explanation:'Degeneracy = redundancy: 61 sense codons encode 20 amino acids, so most amino acids have multiple codons. Each codon still unambiguously specifies one amino acid.',
+    source:'AAMC Content Category 1B; Khan Academy MCAT', topic:'Genetic code', difficulty:'easy' }
+]});
+
+/* ---------------- Module 5: Genetics & Evolution ---------------- */
+MCAT.renderQuiz('#quiz-genetics', { questions: [
+  { id:'bb-gen-1', section:'biobiochem',
+    stem:'Two heterozygous parents (Aa &times; Aa) for an autosomal recessive trait have children. What fraction of offspring are expected to be phenotypically affected (aa)?',
+    options:['0','1/4','1/2','3/4'],
+    answer:1,
+    rationales:['Some offspring (aa) will be affected, so 0 is wrong.','Correct: a monohybrid cross of two heterozygotes yields a 1:2:1 genotypic ratio, so 1/4 are aa and affected.','1/2 corresponds to heterozygous carriers (Aa), not the affected phenotype.','3/4 are the dominant phenotype (A_), the unaffected fraction.'],
+    explanation:'Aa × Aa gives 1 AA : 2 Aa : 1 aa. Only aa shows the recessive phenotype, so 1/4 of offspring are affected.',
+    source:'AAMC Content Category 1C; Campbell Biology', topic:'Mendelian genetics', difficulty:'easy' },
+  { id:'bb-gen-2', section:'biobiochem',
+    stem:'A recessive disease occurs in 1 in 10,000 individuals in a population at Hardy&ndash;Weinberg equilibrium. Approximately what fraction of the population are carriers (heterozygotes)?',
+    options:['1 in 100','1 in 50','1 in 10,000','1 in 5,000'],
+    answer:1,
+    rationales:['1 in 100 corresponds to q itself (0.01), not the carrier frequency 2pq.','Correct: q² = 1/10,000 → q = 0.01, p ≈ 0.99, so 2pq ≈ 2(0.99)(0.01) ≈ 0.0198 ≈ 1 in 50.','1 in 10,000 is the affected (q²) frequency, not carriers.','1 in 5,000 does not match 2pq for these values.'],
+    explanation:'From q² = 0.0001, q = 0.01 and p ≈ 0.99. Carrier frequency 2pq ≈ 0.0198, i.e., roughly 1 in 50 — carriers vastly outnumber affected individuals.',
+    source:'AAMC Content Category 1C; Khan Academy MCAT: Hardy–Weinberg', topic:'Population genetics', difficulty:'hard' },
+  { id:'bb-gen-3', section:'biobiochem',
+    stem:'Human ABO blood type, in which both A and B alleles are fully expressed in an AB individual, is an example of:',
+    options:['Incomplete dominance','Codominance','Pleiotropy','Epistasis'],
+    answer:1,
+    rationales:['Incomplete dominance would give a blended intermediate, not both antigens fully present.','Correct: in codominance both alleles are simultaneously and fully expressed (A and B antigens both appear) in the heterozygote.','Pleiotropy is one gene affecting multiple traits, not relevant here.','Epistasis is one gene masking another’s expression, not this case.'],
+    explanation:'ABO is the textbook codominance example: the AB genotype expresses both A and B surface antigens fully, with neither masking the other.',
+    source:'AAMC Content Category 1C; Campbell Biology', topic:'Non-Mendelian inheritance', difficulty:'easy' },
+  { id:'bb-gen-4', section:'biobiochem',
+    stem:'Two genes on the same chromosome show a recombination frequency of 12%. This is best interpreted as:',
+    options:['The genes are on different chromosomes','The genes are about 12 map units (centimorgans) apart','The genes always assort independently','The genes are at the exact same locus'],
+    answer:1,
+    rationales:['Recombination of 12% (<50%) indicates linkage on the same chromosome, not different ones.','Correct: recombination frequency approximates map distance, so 12% ≈ 12 centimorgans apart.','Independent assortment corresponds to ~50% recombination, not 12%.','Genes at the same locus would show ~0% recombination.'],
+    explanation:'Recombination frequency (up to 50%) estimates genetic map distance: 1% recombination ≈ 1 centimorgan. 12% means the linked genes are about 12 cM apart.',
+    source:'AAMC Content Category 1C; Campbell Biology', topic:'Linkage', difficulty:'medium' },
+  { id:'bb-gen-5', section:'biobiochem',
+    stem:'A new island is colonized by just a few individuals from a large mainland population, and the island&rsquo;s allele frequencies soon differ markedly from the mainland. This is most directly an example of:',
+    options:['Natural selection','The founder effect (genetic drift)','Gene flow','Stabilizing selection'],
+    answer:1,
+    rationales:['No specific selective advantage is described; the change is due to sampling, not fitness.','Correct: a small founding group carries a non-representative sample of alleles — the founder effect, a form of genetic drift.','Gene flow is migration between established populations, not founding by a few individuals.','Stabilizing selection narrows variation around a mean; not described here.'],
+    explanation:'When a small group founds a new population, random sampling of alleles (the founder effect, a type of genetic drift) can produce frequencies very different from the source population.',
+    source:'AAMC Content Category 1C; Campbell Biology', topic:'Evolution / drift', difficulty:'medium' },
+  { id:'bb-gen-6', section:'biobiochem',
+    stem:'Which of the following is required for a population to remain in Hardy&ndash;Weinberg equilibrium?',
+    options:['Frequent mutation','Strong natural selection','Random mating with no migration, mutation, or selection','A small population size'],
+    answer:2,
+    rationales:['Mutation changes allele frequencies, violating equilibrium.','Selection changes allele frequencies, violating equilibrium.','Correct: HWE assumes random mating, no mutation, no migration, no selection, and a large population.','Small populations experience strong genetic drift, violating equilibrium.'],
+    explanation:'Hardy–Weinberg equilibrium holds only under five idealized conditions: no mutation, no gene flow (migration), no selection, random mating, and a large (effectively infinite) population.',
+    source:'AAMC Content Category 1C; Khan Academy MCAT', topic:'Hardy–Weinberg assumptions', difficulty:'easy' }
+]});
+
+/* ---------------- Module 6: Cell Biology / Membranes / Signaling ---------------- */
+MCAT.renderQuiz('#quiz-cell', { questions: [
+  { id:'bb-cell-1', section:'biobiochem',
+    stem:'The Na<sup>+</sup>/K<sup>+</sup>-ATPase moves ions against their gradients. This is an example of:',
+    options:['Facilitated diffusion','Primary active transport','Secondary active transport','Simple diffusion'],
+    answer:1,
+    rationales:['Facilitated diffusion is passive and moves ions down their gradient.','Correct: the pump hydrolyzes ATP directly to move 3 Na+ out and 2 K+ in against their gradients — primary active transport.','Secondary active transport uses an existing ion gradient, not direct ATP hydrolysis.','Simple diffusion requires no protein and goes down-gradient.'],
+    explanation:'The Na+/K+-ATPase couples ATP hydrolysis directly to pumping ions against their electrochemical gradients (3 Na+ out / 2 K+ in) — the definition of primary active transport.',
+    source:'AAMC Content Category 2A/3A; Alberts', topic:'Membrane transport', difficulty:'easy' },
+  { id:'bb-cell-2', section:'biobiochem',
+    stem:'A protein destined for secretion from the cell is synthesized and processed through which sequence of structures?',
+    options:['Free ribosomes &rarr; cytoplasm &rarr; secreted','Rough ER &rarr; Golgi &rarr; secretory vesicle &rarr; plasma membrane','Smooth ER &rarr; lysosome &rarr; secreted','Nucleus &rarr; mitochondrion &rarr; secreted'],
+    answer:1,
+    rationales:['Secreted proteins are made on ER-bound ribosomes, then trafficked, not released straight from cytoplasm.','Correct: secretory proteins are synthesized on the rough ER, modified and sorted in the Golgi, packaged into vesicles, and released by exocytosis.','The smooth ER handles lipids/detox, and lysosomes are for degradation, not secretion of typical proteins.','This pathway is not how proteins are secreted.'],
+    explanation:'The secretory pathway: rough ER (synthesis/folding) → Golgi (modification, glycosylation, sorting) → secretory vesicle → exocytosis at the plasma membrane.',
+    source:'AAMC Content Category 2A; Alberts', topic:'Organelles / secretory pathway', difficulty:'medium' },
+  { id:'bb-cell-3', section:'biobiochem',
+    stem:'A peptide hormone binds a cell-surface receptor and rapidly raises intracellular cAMP. The receptor and key enzyme involved are most likely:',
+    options:['An intracellular receptor activating transcription','A G-protein-coupled receptor activating adenylyl cyclase','A receptor tyrosine kinase activating DNA polymerase','A ligand-gated ion channel raising cAMP directly'],
+    answer:1,
+    rationales:['Intracellular receptors are used by steroid (lipophilic) hormones, not surface-binding peptides, and act slowly via transcription.','Correct: peptide hormones act through GPCRs; activated Gαs stimulates adenylyl cyclase to make cAMP, a fast second-messenger response.','RTKs do not activate DNA polymerase; cAMP is not their main second messenger.','Ion channels gate ions, not cAMP synthesis.'],
+    explanation:'Peptide hormones (hydrophilic) cannot cross the membrane, so they bind surface GPCRs; Gαs activates adenylyl cyclase → cAMP → protein kinase A, a rapid signaling cascade.',
+    source:'AAMC Content Category 2A/3A; Khan Academy MCAT: Cell signaling', topic:'Signal transduction', difficulty:'medium' },
+  { id:'bb-cell-4', section:'biobiochem',
+    stem:'A cell is placed in a hypertonic solution. The cell will:',
+    options:['Swell as water moves in','Shrink (crenate) as water moves out','Remain unchanged','Lyse immediately'],
+    answer:1,
+    rationales:['Water moves out, not in, when external solute concentration is higher.','Correct: in a hypertonic environment, water leaves the cell by osmosis toward the higher external solute concentration, so the cell shrinks.','Net water movement does occur because the solutions are not isotonic.','Lysis occurs in hypotonic (water-entering) conditions, the opposite case.'],
+    explanation:'Hypertonic = higher external solute. Water flows out of the cell down its concentration gradient, causing the cell to shrink (crenate in animal cells, plasmolyze in plants).',
+    source:'AAMC Content Category 2A; Khan Academy MCAT: Osmosis', topic:'Osmosis / tonicity', difficulty:'easy' },
+  { id:'bb-cell-5', section:'biobiochem',
+    stem:'Cholesterol in the animal plasma membrane primarily functions to:',
+    options:['Make the membrane fully rigid at all temperatures','Buffer membrane fluidity across a range of temperatures','Carry out active transport','Serve as the main energy source of the membrane'],
+    answer:1,
+    rationales:['Cholesterol does not make the membrane rigid at all temperatures; its effect is bidirectional.','Correct: cholesterol acts as a fluidity buffer — it restrains movement at high temperature and prevents tight packing at low temperature.','Cholesterol is structural, not a transporter.','Membranes are not energy sources; that is a misconception.'],
+    explanation:'Cholesterol intercalates among phospholipids, decreasing fluidity at high temperatures and preventing rigid packing at low temperatures — it stabilizes (buffers) membrane fluidity.',
+    source:'AAMC Content Category 2A; Alberts', topic:'Membrane structure', difficulty:'medium' },
+  { id:'bb-cell-6', section:'biobiochem',
+    stem:'Receptor tyrosine kinases (e.g., the insulin receptor) typically transmit signals by:',
+    options:['Pumping ions across the membrane','Dimerizing and autophosphorylating tyrosine residues to recruit signaling proteins','Directly synthesizing cAMP','Entering the nucleus to bind DNA themselves'],
+    answer:1,
+    rationales:['RTKs are not ion pumps.','Correct: ligand binding induces receptor dimerization and trans-autophosphorylation of tyrosines, creating docking sites that launch cascades such as Ras–MAPK and PI3K.','cAMP synthesis is the GPCR/adenylyl cyclase pathway, not the RTK signature.','The receptor stays at the membrane; downstream effectors, not the receptor itself, alter transcription.'],
+    explanation:'RTK signaling: ligand → receptor dimerization → autophosphorylation of cytoplasmic tyrosines → recruitment of adaptor/effector proteins → cascades (Ras–MAPK, PI3K–Akt).',
+    source:'AAMC Content Category 2A; Khan Academy MCAT', topic:'Signal transduction', difficulty:'hard' }
+]});
+
+/* ---------------- Module 7: Microbiology ---------------- */
+MCAT.renderQuiz('#quiz-micro', { questions: [
+  { id:'bb-mic-1', section:'biobiochem',
+    stem:'Transfer of genetic material from one bacterium to another via a bacteriophage is called:',
+    options:['Transformation','Transduction','Conjugation','Binary fission'],
+    answer:1,
+    rationales:['Transformation is uptake of free/naked DNA from the environment.','Correct: transduction is phage-mediated transfer of bacterial DNA from one cell to another.','Conjugation requires direct cell contact via a pilus and an F plasmid, no phage.','Binary fission is asexual reproduction, not gene transfer between cells.'],
+    explanation:'Transduction uses a bacteriophage as the vector that carries DNA from a donor to a recipient bacterium; contrast with transformation (naked DNA) and conjugation (pilus/F-plasmid).',
+    source:'AAMC Content Category 2B; Campbell Biology', topic:'Bacterial genetics', difficulty:'easy' },
+  { id:'bb-mic-2', section:'biobiochem',
+    stem:'An antibiotic targets the bacterial 70S ribosome. Why does it generally spare human cytoplasmic protein synthesis?',
+    options:['Human cells lack ribosomes','Human cytoplasmic ribosomes are 80S and structurally distinct','The drug cannot enter human cells at all','Human ribosomes are also 70S but protected by the nucleus'],
+    answer:1,
+    rationales:['Human cells obviously have ribosomes; this is false.','Correct: human cytosolic ribosomes are 80S (40S+60S), differing enough from prokaryotic 70S (30S+50S) that the drug binds selectively.','Permeability is not the basis of this selectivity; the structural difference is.','Human cytoplasmic ribosomes are 80S, not 70S.'],
+    explanation:'Selective toxicity arises because bacterial 70S ribosomes differ structurally from human 80S cytosolic ribosomes. (Human mitochondrial ribosomes resemble 70S, explaining some side effects.)',
+    source:'AAMC Content Category 2B; Campbell Biology', topic:'Prokaryote structure', difficulty:'medium' },
+  { id:'bb-mic-3', section:'biobiochem',
+    stem:'A virus integrates its genome into the host chromosome and is replicated passively for many host generations before later entering a destructive replication phase. The integrated form and the destructive phase are, respectively:',
+    options:['Prophage; lytic cycle','Capsid; lysogenic cycle','Plasmid; transformation','Virion; conjugation'],
+    answer:0,
+    rationales:['Correct: the integrated viral genome is a prophage (lysogenic state); the later destructive replication is the lytic cycle.','The capsid is the protein coat, not the integrated genome.','A plasmid is bacterial, and transformation is not a viral replication phase.','A virion is the complete viral particle, and conjugation is bacterial gene transfer.'],
+    explanation:'In lysogeny the viral genome integrates as a prophage and replicates with the host; environmental triggers can switch it to the lytic cycle, in which it replicates and lyses the cell.',
+    source:'AAMC Content Category 2B; Campbell Biology', topic:'Viral life cycles', difficulty:'medium' },
+  { id:'bb-mic-4', section:'biobiochem',
+    stem:'HIV is a retrovirus. Which enzyme is essential for converting its RNA genome into DNA that can integrate into the host genome?',
+    options:['DNA-dependent RNA polymerase','Reverse transcriptase','DNA ligase','Helicase'],
+    answer:1,
+    rationales:['That enzyme makes RNA from DNA — the opposite of what a retrovirus needs first.','Correct: reverse transcriptase synthesizes DNA from the viral RNA template (an RNA-dependent DNA polymerase), the defining retroviral enzyme.','DNA ligase seals nicks but does not perform reverse transcription.','Helicase unwinds DNA but does not convert RNA to DNA.'],
+    explanation:'Retroviruses carry reverse transcriptase, an RNA-dependent DNA polymerase that copies the RNA genome into DNA; integrase then inserts that DNA into the host chromosome.',
+    source:'AAMC Content Category 2B; Khan Academy MCAT: Viruses', topic:'Retroviruses', difficulty:'easy' },
+  { id:'bb-mic-5', section:'biobiochem',
+    stem:'Which statement about viruses is most accurate?',
+    options:['Viruses carry out their own metabolism and ATP production','A virion contains both DNA and RNA simultaneously','Viruses are obligate intracellular parasites that hijack host machinery to replicate','Viruses reproduce by binary fission'],
+    answer:2,
+    rationales:['Viruses have no independent metabolism; they rely entirely on the host.','A given virion has DNA or RNA, never both.','Correct: viruses must enter a host cell and commandeer its machinery to replicate — obligate intracellular parasites.','Binary fission is bacterial; viruses assemble new particles inside host cells.'],
+    explanation:'Viruses lack metabolism and ribosomes; they are obligate intracellular parasites that use host machinery to replicate. Each virion has only one nucleic acid type (DNA or RNA).',
+    source:'AAMC Content Category 2B; Campbell Biology', topic:'Virus fundamentals', difficulty:'easy' },
+  { id:'bb-mic-6', section:'biobiochem',
+    stem:'Bacterial conjugation differs from transformation in that conjugation:',
+    options:['Requires uptake of naked DNA from the surroundings','Requires direct cell-to-cell contact via a pilus and typically an F plasmid','Is mediated by a bacteriophage','Produces genetically identical daughter cells only'],
+    answer:1,
+    rationales:['Naked-DNA uptake is transformation, not conjugation.','Correct: conjugation transfers DNA through a pilus during direct contact, usually mediated by the F (fertility) plasmid.','Phage-mediated transfer is transduction.','Conjugation increases genetic variation; it does not just clone cells.'],
+    explanation:'Conjugation is contact-dependent gene transfer through a pilus (often driven by the F plasmid), distinct from transformation (free DNA uptake) and transduction (phage vector).',
+    source:'AAMC Content Category 2B; Campbell Biology', topic:'Bacterial genetics', difficulty:'medium' }
+]});
+
+/* ---------------- Module 8: Organ Systems ---------------- */
+MCAT.renderQuiz('#quiz-organsystems', { questions: [
+  { id:'bb-os-1', section:'biobiochem',
+    stem:'During the rising phase (depolarization) of a neuronal action potential, the membrane potential moves toward positive values mainly because:',
+    options:['K<sup>+</sup> rushes out of the cell','Voltage-gated Na<sup>+</sup> channels open and Na<sup>+</sup> rushes in','Cl<sup>&minus;</sup> enters the cell','The Na<sup>+</sup>/K<sup>+</sup>-ATPase reverses direction'],
+    answer:1,
+    rationales:['K+ efflux causes repolarization (the falling phase), not depolarization.','Correct: voltage-gated Na+ channels open at threshold, and Na+ influx drives the membrane potential rapidly toward positive values.','Cl− entry is hyperpolarizing/inhibitory, not depolarizing.','The pump restores gradients slowly and does not cause the rapid upstroke.'],
+    explanation:'Depolarization is driven by rapid Na+ influx through voltage-gated Na+ channels; subsequent K+ efflux repolarizes the membrane.',
+    source:'AAMC Content Category 3A; Guyton & Hall Physiology', topic:'Action potential', difficulty:'easy' },
+  { id:'bb-os-2', section:'biobiochem',
+    stem:'A right shift of the oxygen&ndash;hemoglobin dissociation curve in active muscle tissue results in:',
+    options:['Increased hemoglobin affinity for O<sub>2</sub>','Decreased hemoglobin affinity for O<sub>2</sub>, promoting O<sub>2</sub> unloading','No change in O<sub>2</sub> delivery','Reduced O<sub>2</sub> release to tissues'],
+    answer:1,
+    rationales:['A right shift lowers, not raises, affinity.','Correct: a right shift (↑CO2, ↑H+, ↑temp, ↑ 2,3-BPG — the Bohr effect) lowers O2 affinity so hemoglobin unloads more O2 to active tissue.','O2 delivery clearly increases with a right shift.','A right shift increases, not reduces, O2 release.'],
+    explanation:'A right shift (Bohr effect) decreases hemoglobin’s O2 affinity, enhancing O2 release exactly where metabolic demand (and CO2, H+, heat) is highest.',
+    source:'AAMC Content Category 3B; Guyton & Hall', topic:'Oxygen transport', difficulty:'medium' },
+  { id:'bb-os-3', section:'biobiochem',
+    stem:'Steroid hormones differ from peptide hormones in that steroids typically:',
+    options:['Bind cell-surface receptors and act within seconds','Cross the plasma membrane and bind intracellular receptors to alter gene transcription','Use cAMP as a second messenger','Cannot affect target-gene expression'],
+    answer:1,
+    rationales:['Surface-receptor, fast action describes peptide hormones, not steroids.','Correct: lipophilic steroids diffuse through the membrane to intracellular/nuclear receptors and modulate transcription — a slower, longer-lasting response.','cAMP second messengers are characteristic of peptide hormones via GPCRs.','Altering gene expression is precisely what steroids do, so this is false.'],
+    explanation:'Steroid hormones are lipophilic, cross the membrane, and bind intracellular receptors that act as transcription factors — a slower onset but durable effect, unlike fast peptide-hormone signaling.',
+    source:'AAMC Content Category 3A/3B; Guyton & Hall', topic:'Endocrine signaling', difficulty:'medium' },
+  { id:'bb-os-4', section:'biobiochem',
+    stem:'In the nephron, antidiuretic hormone (ADH/vasopressin) primarily acts to:',
+    options:['Increase Na<sup>+</sup> reabsorption in the distal tubule','Increase water reabsorption by inserting aquaporins in the collecting duct','Increase glomerular filtration rate directly','Promote excretion of dilute urine'],
+    answer:1,
+    rationales:['Increasing Na+ reabsorption is the role of aldosterone, not ADH.','Correct: ADH inserts aquaporin channels in the collecting duct, increasing water reabsorption and concentrating the urine.','ADH acts on water permeability, not by directly raising GFR.','ADH produces concentrated (not dilute) urine by conserving water.'],
+    explanation:'ADH increases the water permeability of the collecting duct (via aquaporin insertion), reabsorbing water and concentrating urine; aldosterone, by contrast, drives Na+ reabsorption.',
+    source:'AAMC Content Category 3B; Guyton & Hall', topic:'Renal physiology', difficulty:'medium' },
+  { id:'bb-os-5', section:'biobiochem',
+    stem:'During muscle contraction (sliding filament model), Ca<sup>2+</sup> directly initiates cross-bridge formation by:',
+    options:['Binding myosin and bending its head','Binding troponin, shifting tropomyosin to expose actin binding sites','Hydrolyzing ATP at the actin filament','Depolarizing the sarcolemma'],
+    answer:1,
+    rationales:['Ca2+ acts on the thin-filament regulatory complex, not directly on myosin.','Correct: Ca2+ binds troponin, which moves tropomyosin off the actin binding sites, allowing myosin heads to attach and cycle.','ATP hydrolysis occurs at the myosin head, not at actin, and is not Ca2+’s direct trigger.','Depolarization precedes and triggers Ca2+ release but is not Ca2+’s direct action here.'],
+    explanation:'Ca2+ binds troponin C, causing a conformational shift that moves tropomyosin away from actin’s myosin-binding sites, permitting cross-bridge cycling powered by ATP.',
+    source:'AAMC Content Category 3B; Guyton & Hall', topic:'Muscle contraction', difficulty:'hard' },
+  { id:'bb-os-6', section:'biobiochem',
+    stem:'Which cells are primarily responsible for producing antibodies in the adaptive humoral immune response?',
+    options:['Cytotoxic (CD8) T cells','Plasma cells derived from B cells','Macrophages','Natural killer cells'],
+    answer:1,
+    rationales:['CD8 T cells kill infected cells directly (cell-mediated), they do not make antibodies.','Correct: activated B cells differentiate into plasma cells that secrete antibodies — the humoral response.','Macrophages phagocytose and present antigen but do not produce antibodies.','NK cells are innate-immune killers, not antibody producers.'],
+    explanation:'Humoral immunity is mediated by B cells; upon activation they differentiate into antibody-secreting plasma cells. Cell-mediated immunity uses cytotoxic T cells.',
+    source:'AAMC Content Category 3B; Khan Academy MCAT: Immune system', topic:'Immune system', difficulty:'easy' },
+  { id:'bb-os-7', section:'biobiochem',
+    stem:'The correct path of the cardiac conduction signal is:',
+    options:['AV node &rarr; SA node &rarr; Purkinje fibers &rarr; bundle of His','SA node &rarr; AV node &rarr; bundle of His &rarr; Purkinje fibers','Purkinje fibers &rarr; SA node &rarr; AV node &rarr; bundle of His','SA node &rarr; bundle of His &rarr; AV node &rarr; Purkinje fibers'],
+    answer:1,
+    rationales:['The SA node, not the AV node, is the primary pacemaker and fires first.','Correct: SA node (pacemaker) → AV node (delay) → bundle of His → Purkinje fibers spreading through the ventricles.','Purkinje fibers are the last in the sequence, not the first.','The bundle of His comes after the AV node, not before it.'],
+    explanation:'Cardiac excitation begins at the SA node, is delayed at the AV node (allowing ventricular filling), travels down the bundle of His, and spreads via Purkinje fibers to contract the ventricles.',
+    source:'AAMC Content Category 3B; Guyton & Hall', topic:'Cardiac physiology', difficulty:'medium' }
+]});
+</script>
+
+</body>
+</html>

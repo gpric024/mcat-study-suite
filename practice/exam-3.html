@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice Exam 3 — MCAT Study Suite</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<nav class="topbar"><div class="wrap">
+  <a class="home" href="../index.html">MCAT Suite</a>
+  <a href="../study/cars.html">CARS ★</a>
+  <a href="../study/chemphys.html">Chem/Phys</a>
+  <a href="../study/biobiochem.html">Bio/Biochem</a>
+  <a href="../study/psychsoc.html">Psych/Soc</a>
+  <span class="spacer"></span>
+  <a href="../index.html#exams">All exams</a>
+</div></nav>
+
+<div class="wrap">
+  <header class="hero">
+    <h1>Practice Exam 3 <span class="muted" style="font-size:18px">— Build</span></h1>
+    <p class="lede">Full-length, AAMC-style. Work top to bottom, answer everything, then <strong>Submit exam &amp; grade</strong>
+    at the bottom. Suggested order and timing match the real test. Review every explanation before you move on.</p>
+  </header>
+
+  <div id="exam-root"></div>
+</div>
+
+<script src="data/e3_chemphys.js"></script>
+<script src="data/e3_cars.js"></script>
+<script src="data/e3_biobiochem.js"></script>
+<script src="data/e3_psychsoc.js"></script>
+<script src="../assets/quiz.js"></script>
+<script>
+(function(){
+  var D = window.MCAT_DATA || {};
+  function sec(key){ var d = D['e3_'+key] || {}; return { questions: d.questions || [], passages: d.passages || [] }; }
+  MCAT.renderExam('#exam-root', {
+    title: 'Practice Exam 3',
+    sections: [
+      Object.assign({ key:'chemphys',   name:'Chemical & Physical Foundations of Biological Systems', minutes:95 }, sec('chemphys')),
+      Object.assign({ key:'cars',       name:'Critical Analysis & Reasoning Skills (CARS)',           minutes:90 }, sec('cars')),
+      Object.assign({ key:'biobiochem', name:'Biological & Biochemical Foundations of Living Systems', minutes:95 }, sec('biobiochem')),
+      Object.assign({ key:'psychsoc',   name:'Psychological, Social & Biological Foundations of Behavior', minutes:95 }, sec('psychsoc'))
+    ]
+  });
+})();
+</script>
+</body>
+</html>
